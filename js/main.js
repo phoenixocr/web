@@ -1,21 +1,21 @@
 (function($) {
-  
+
   "use strict";
 
-/* 
+/*
    CounterUp
    ========================================================================== */
     $('.counter').counterUp({
       time: 500
     });
 
-/* 
+/*
    MixitUp
    ========================================================================== */
   $('#portfolio').mixItUp();
 
-/* 
-   Clients Sponsor 
+/*
+   Clients Sponsor
    ========================================================================== */
     var owl = $("#clients-scroller");
     owl.owlCarousel({
@@ -32,7 +32,7 @@
       itemsMobile : [479,1],
     });
 
-  /* Testimonials Carousel 
+  /* Testimonials Carousel
   ========================================================*/
     var owl = $("#testimonials");
       owl.owlCarousel({
@@ -48,9 +48,9 @@
         itemsTablet: [767,1],
         itemsTabletSmall: [480,1],
         itemsMobile : [479,1],
-      });   
+      });
 
-/* 
+/*
    Touch Owl Carousel
    ========================================================================== */
     var owl = $(".touch-slider");
@@ -69,7 +69,7 @@
     $('.touch-slider').find('.owl-prev').html('<i class="lni-chevron-left"></i>');
     $('.touch-slider').find('.owl-next').html('<i class="lni-chevron-right"></i>');
 
-/* 
+/*
    Sticky Nav
    ========================================================================== */
     $(window).on('scroll', function() {
@@ -80,7 +80,7 @@
         }
     });
 
-/* 
+/*
    VIDEO POP-UP
    ========================================================================== */
     $('.video-popup').magnificPopup({
@@ -92,7 +92,7 @@
         fixedContentPos: false,
     });
 
-/* 
+/*
    Back Top Link
    ========================================================================== */
     var offset = 200;
@@ -113,19 +113,19 @@
       return false;
     })
 
-/* 
+/*
    One Page Navigation & wow js
    ========================================================================== */
     //Initiat WOW JS
     new WOW().init();
 
-    // one page navigation 
+    // one page navigation
     $('.main-navigation').onePageNav({
             currentClass: 'active'
-    }); 
+    });
 
     $(window).on('load', function() {
-       
+
         $('body').scrollspy({
             target: '.navbar-collapse',
             offset: 195
@@ -141,12 +141,12 @@
 
     });
 /* Nivo Lightbox
-  ========================================================  
+  ========================================================
    $('.lightbox').nivoLightbox({
     effect: 'fadeScale',
     keyboardNav: true,
   });
-*/ 
+*/
 
 /* stellar js
   ========================================================*/
@@ -156,7 +156,7 @@
     responsive: false
   });
 
-/* 
+/*
    Page Loader
    ========================================================================== */
    $(window).on('load',function() {
@@ -165,4 +165,3 @@
     });
 
 }(jQuery));
-
