@@ -125,6 +125,17 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   width: 100%;
 }
 
+.slide-title {
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.bottom-title{
+  position : absolute;
+  bottom   : 0;
+}
+
+
 /* ==========================================================================
    2.2 Buttons
    ========================================================================== */
@@ -259,9 +270,12 @@ button:focus {
   background: #4867AA;
 }
 
+.instagram a {
+  color: #C13584;
+}
 
 .instagram a:hover {
-  background: #DD4D42;
+  background: #C13584;
 }
 
 .twitter a {
@@ -1473,6 +1487,11 @@ button:focus {
   color: #fff;
 }
 
+.single-team .social-list .instagram a:hover {
+  background: #C13584;
+  color: #fff;
+}
+
 .single-team .social-list .linkedin a:hover {
   background: #007bb6;
   color: #fff;
@@ -2284,6 +2303,10 @@ footer .menu li a:hover {
 
 .footer-social li .facebook:hover {
   background-color: #3b5998;
+}
+
+.footer-social li .instagram:hover {
+  background-color: #C13584;
 }
 
 .footer-social li .twitter:hover {
