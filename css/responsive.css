@@ -189,6 +189,14 @@
   .bg-faded {
     background: #fff !important;
   }
+
+  .flex-slide img {
+     margin-top: 50px;
+     min-width: 100%;
+     min-height: 100%;
+     object-fit: cover;
+  }
+
   #video-area .contents h1 {
     font-size: 30px;
     line-height: 48px;
