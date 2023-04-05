@@ -130,6 +130,17 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
+.flex-slide {
+  display: flex;
+}
+
+.flex-slide img {
+   margin-top: 50px;
+   min-width: 100%;
+   min-height: 100%;
+   object-fit: cover;
+}
+
 .bottom-title{
   position : absolute;
   bottom   : 0;
