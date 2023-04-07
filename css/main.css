@@ -1032,6 +1032,8 @@ button:focus {
  ========================================================================== */
 .video-promo {
   background: url(../img/bg/video.jpg);
+  background-position: center;
+  background-size: 100% auto;
   position: relative;
 }
 
@@ -1512,6 +1514,9 @@ button:focus {
   color: #fff;
 }
 
+.item-height{
+  height: 100%;
+}
 .testimonial {
   background: #f9f9f9;
 }
@@ -1536,7 +1541,7 @@ button:focus {
 }
 
 .testimonial-item .author .img-thumb img {
-  border-radius: 50%;
+  /*border-radius: 50%;*/
   width: 75%;
 }
 
