@@ -54,6 +54,9 @@
                   <a class="nav-link page-scroll" href="#results">Nos résultats</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link page-scroll" href="#jersey">Notre Look</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link page-scroll" href="#news">Presse</a>
                 </li>
                 <li class="nav-item">
@@ -758,9 +761,74 @@
     <!-- Results Section End -->
 
 
+    <!-- Jersey Section End -->
+    <section id="jersey" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Notre Look</h2>
+          <span>Notre Look</span>
+        </div>
+        <div class="page-content">
+            <div class="card">
+                <div class="slide-content">
+                  <p class="text-white">Tshirt de compétitions</p>
+                  <div class="bg-transparent">
+                    <div onclick="openModal(this)" class="bg-transparent" style="background-image: url('img/jersey/img1.jpg');">
+                        <div class="zoom-icon-wrapper"><i class="lni-plus"></i></div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="slide-content">
+                  <p class="text-white">Tshirt d'entrainements</p>
+                  <div class="bg-transparent">
+                    <div onclick="openModal(this)" class="bg-transparent" style="background-image: url('img/jersey/img2.jpg');">
+                        <div class="zoom-icon-wrapper"><i class="lni-plus"></i></div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="slide-content">
+                  <p class="text-white">Veste officielle</p>
+                  <div class="bg-transparent">
+                    <div onclick="openModal(this)" class="bg-transparent" style="background-image: url('img/jersey/img3.jpg');">
+                        <div class="zoom-icon-wrapper"><i class="lni-plus"></i></div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="slide-content">
+                  <p class="text-white">Legging</p>
+                  <div class="bg-transparent">
+                    <div onclick="openModal(this)" class="bg-transparent" style="background-image: url('img/jersey/img4.jpg');">
+                        <div class="zoom-icon-wrapper"><i class="lni-plus"></i></div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="slide-content">
+                  <p class="text-white">Tshirt compréssif</p>
+                  <div class="bg-transparent">
+                    <div onclick="openModal(this)" class="bg-transparent" style="background-image: url('img/jersey/img5.jpg');">
+                        <div class="zoom-icon-wrapper"><i class="lni-plus"></i></div>
+                    </div>
+                  </div>
+                </div>
+            </div>
 
-        <!-- News Section Start -->
-        <section id="news" class="testimonial section">
+            <div id="modal" class="modal hidden" onclick="closeModal()">
+                <img id="modal-img" src="" alt="Full-size photo">
+            </div>
+      </div>
+    </section>
+        <!-- Jersey Section Start -->
+
+    <!-- News Section Start -->
+    <section id="news" class="testimonial section">
           <div class="container">
             <div class="container">
               <div class="section-header">
@@ -1035,7 +1103,7 @@
     <script src="js/wow.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/waypoints.min.js"></script>
+    <script src="js/zoom.js"></script>
     <script src="js/main.js"></script>
-
   </body>
 </html>
